@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IberAqua v2</string>
+    <string name="main">Reportes</string>
+    <string name="project">El Proyecto</string>
+    <string name="methodology">Metodología</string>
+    <string name="action_filter">Filtro</string>
+    <string name="action_login">Iniciar sesión</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_success">Casos de Éxito</string>
+    <string name="action_add_report">Añadir reporte</string>
+
+    <string name="action_add_comment">Añadir comentario</string>
+
+    <string name="action_display_reports_all">Mostrar todos los reportes</string>
+    <string name="action_display_reports_nearby">Mostrar reportes cercanos</string>
+
+    <string name="map_show_reports">Mostrar reportes</string>
+    <string name="reports_title">Reportes</string>
+    <string name="btn_link_to_register">¿No estás registrado? ¡Regístrate ahora!</string>
+    <string name="btn_link_to_login">¿Ya estás registrado? Inicia sesión</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_mail">E-mail</string>
+    <string-array name="age_array">
+        <item>Edad:</item>
+        <item>18 o menos</item>
+        <item>19-40</item>
+        <item>41 o más</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Género:</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    <string name="btn_signup">Registrar</string>
+    <string name="signup_consent_title">Consentimiento informado</string>
+    <string name="signup_consent_text">No compartiremos tus datos con tercernos ni los utilizaremos con otros fines que no sean estadísticos.</string>
+
+    <string name="btn_addreport">Añadir reporte</string>
+    <string name="cancel">Cancelar</string>
+    <string name="addreport_question_intensity">¿Intensidad del olor? (0 suave, 2 fuerte)</string>
+    <string name="addreport_question_annoyance">¿Intensidad del sabor? (0 suave, 2 fuerte)</string>
+    <string name="addreport_question_weather">What is the weather like?</string>
+
+    <string name="btn_addcomment">Añadir un comentario</string>
+    <string name="hint_comment">Escribe tu comentario aquí</string>
+
+    <string name="hint_cfa">Write your comment here</string>
+    <string name="btn_addcfacomment">Add Comment</string>
+
+    <string name="title_list_comments_text">Comentarios</string>
+    <string name="the_project_content">Este proyecto de ciencia ciudadana pretende controlar el agua que bebemos en casa mirando sus niveles de cloro, pH, sabor y olor\n\nContexto\n\nEl control periódico de la calidad del agua lo realizan los institutos de salud pública. Para mantener a raya los contaminantes del agua se usa el cloro por su actividad biocida, y por eso se quiere controlar el cloro y el pH con el que tiene mucha relación.\n\nMotivación\n\nEste proyecto acerca la bioquímica y el método científico a los más jóvenes, aprendiendo sobre el agua y sus tratamientos. Además, se crea una nueva fuente de datos que puede ser peor en metodología y herramientas que las oficiales, pero que presenta potenciales ventajas en granularidad en tiempo, en espacio (pueblo a pueblo, calle a calle, grifo a grifo) gracias a la labor de científicos ciudans.\n\nEl experimento\n\nCon una metodología simple y unos kits sencillos, cualquiera puede:\n- Ver lo que otros han subido a la web y obtener los tutoriales necesarios, via web o app en smartphone. \n- Compartir en redes sociales\n- Registrarse si quiere subir sus propias muestras analizadas\n- Recibir los kits bioquímicos en su centro de enseñanza\n- Tomar muestras de agua en cualquier grifo, realizar el análisis y anotar tanto el valor resultante y la geoposición del grifo para ir creando un mapa con las muestras y el histórico de datos.\n\nKits\n\nA los centros que lo han solicitado se les entregan un paquete con todo lo necesario para montar los kits experimentales a repartir a sus alumnos para que estos puedan realizar los analisis en sus casas.\n\nCada centro recibe un paquete con lo siguiente:\n\n- 100 pastillas para controlar el cloro\n- 100 botes de plástico para controlar el cloro\n- 100 discos de referencia de color para controlar el cloro\n- 100 tiras de papel para controlar el pH\n100 tiras de papel para controlar el pH\n- 100 bolsitas de plastico para meter una unidad de todo lo anterior
+</string>
+    <string name="methodology_content">¿CÓMO LO HAGO?\n\nPara analizar Cloro:\n- Pon el grifo en posició de agua fría y deja correr el agua durante 5 segundos*.\n- Llena el bote de cristal con el agua hasta que falte un dedo para el borde.\n- Introduce la pastilla en el tubo\n- Cierra y agita hasta que se disuelva la pastilla.\n- Compara con nuestro disco de referencia y anota el resultado.\n- Desecha el agua de la muestra\n\nPara analizar el ph:\n- Pon el grifo en posició de agua fría y deja correr el agua durante 5 segundos*.\n- Llena un vaso.\n- Introduce la tira de papel en el agua durante 2 segundos y espera 5 segundos.\n- Compara el color y anota el resultado.\n- Desecha el agua de la muestra\n\nPara analizar el olor:\n- Pon el grifo en posici�n de agua fría y deja correr el agua durante 5 segundos*.\n- Llena un vaso.\n- Huele el agua acercando la nariz todo lo que puedas sin mojarte.\n- Anota el resultado\n- Desecha el agua de la muestra\n\nPara analizar el sabor:\n- Pon el grifo en posición de agua fría y deja correr el agua durante 5 segundos*.\n- Llena un vaso\n- Toma un sorbo de agua y saboréala sin tragar.\n- Desecha el agua de la muestra\n- Anota los resultados\n* Puedes utilizar el agua descartada para otros usos domésticos e.g. regar las plantas. Si vas a hacer todas las pruebas seguidas no hace falta que dejes correr el agua cada vez.\n\nComparte tus resultados!\n\nRegístrate en la web: aqua.ibercivis.es o decárgate la app IberAqua
+\n\nClick en el botón con el símbolo "+"
+\n\nComparte tú "Geoposición" en la app o, desde la web, localizate tú mismo el lugar de la muestra en el mapa.
+\n\nAhora, introduce los valores de la muestra:
+\n\nintroduce el valor del pH
+\nintroduce el valor del cloro
+\nintensidad de olor ¿huele a algo?
+\nintensidad de sabor ¿sabe a algo?
+\n¿Alún cambio reciente en el agua?
+\n\nMas información en info@ibercivis.es</string>
+    <string name="success_title">Casos de éxito</string>
+    <string name="success_content">Próximamente</string>
+    <string name="menu_bar_type">Seleccionar Tipo</string>
+    <string name="menu_bar_since">Desde...</string>
+    <string name="menu_bar_until">Hasta...</string>
+    <string name="menu_bar_remove">Quitar filtros</string>
+    <string name="menu_bar_type_garbage">Garbage</string>
+    <string name="menu_bar_type_sewage">Sewage</string>
+    <string name="menu_bar_type_chemical">Chemical</string>
+    <string name="menu_bar_type_dont_know">Do not know</string>
+    <string name="menu_bar_type_other">Other</string>
+    <string name="hint_type_other">Write which type it is</string>
+    <string name="view_details">Ver detalles</string>
+    <string name="title_activity_prueba">PruebaActivity</string>
+
+    <string name="add1">Valor de pH (e.g. 7.0)</string>
+    <string name="add2">Valor de cl (e.g. 0.5)</string>
+    <string name="add3">Por favor, describe el olor</string>
+    <string name="add4">Por favor, describe el sabor</string>
+    <string name="add5">¿Algún cambio últimamente?</string>
+    <string name="add6">Por favor, espere...</string>
+</resources>

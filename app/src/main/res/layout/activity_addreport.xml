@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <!--ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/brand_logo" /-->
+
+        <!-- Intensity slider -->
+        <!-- Question and value -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <EditText
+                android:id="@+id/addreport_ph"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"
+                android:hint="@string/add1"
+                android:inputType="text"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/textColorSecundary"
+                android:textColorHint="@color/colorHint"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <EditText
+                android:id="@+id/addreport_cl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"
+                android:hint="@string/add2"
+                android:inputType="text"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/textColorSecundary"
+                android:textColorHint="@color/colorHint"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:id="@+id/odourIntensityResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/addreport_question_intensity"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:id="@+id/intensityResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intensity Result"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal" >
+            <TableRow>
+                <TextView
+                    android:id="@+id/intensity_label1"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="0" />
+
+                <SeekBar
+                    android:id="@+id/sbBar_intensity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="1" />
+
+                <TextView
+                    android:id="@+id/intensity_label2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="10dp"
+                    android:textColor="#ffffff"
+                    android:text="2" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <EditText
+                android:id="@+id/addreport_odour"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"
+                android:hint="@string/add3"
+                android:inputType="text"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/textColorSecundary"
+                android:textColorHint="@color/colorHint"/>
+
+        </LinearLayout>
+
+        <!-- Annoyance slider -->
+        <!-- Question and value -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:id="@+id/tasteIntensityResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/addreport_question_annoyance"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:id="@+id/tasteResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intensity Result"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal" >
+            <TableRow>
+                <TextView
+                    android:id="@+id/annoyance_label1"
+                    android:paddingLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="0" />
+
+                <SeekBar
+                    android:id="@+id/sbBar_annoyance"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="1" />
+
+                <TextView
+                    android:id="@+id/annoyance_label2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="10dp"
+                    android:textColor="#ffffff"
+                    android:text="2" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <EditText
+                android:id="@+id/addreport_taste"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"
+                android:hint="@string/add4"
+                android:inputType="text"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/textColorSecundary"
+                android:textColorHint="@color/colorHint"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <EditText
+                android:id="@+id/addreport_change"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"
+                android:hint="@string/add5"
+                android:inputType="text"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@color/textColorSecundary"
+                android:textColorHint="@color/colorHint"/>
+
+        </LinearLayout>
+
+        <!--TextView
+            android:id="@+id/tvWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="@string/addreport_question_weather" /-->
+
+        <!-- Cloud slider -->
+        <!-- Question and value -->
+
+
+
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutButtonsAddReport"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true">
+
+            <!-- Add Report Button -->
+
+            <Button
+                android:id="@+id/btnAddReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@color/colorPrimaryLight"
+                android:text="@string/btn_addreport"
+                android:textColor="@color/textColorPrimary"
+                android:onClick="addReportRequest" />
+
+            <!-- Cancel Button -->
+
+            <Button
+                android:id="@+id/btnCancelAddReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dip"
+                android:layout_marginLeft="10dip"
+                android:background="@color/colorPrimaryLight"
+                android:text="@string/cancel"
+                android:textColor="@color/textColorPrimary"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:onClick="cancelAddReport"  />
+
+        </LinearLayout>
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/cargando"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A000000"
+    android:gravity="center"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#cccccc"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/add6"/>
+        <ProgressBar
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>
