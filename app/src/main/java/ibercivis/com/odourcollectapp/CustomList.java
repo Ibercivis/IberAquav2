@@ -53,10 +53,11 @@ public class CustomList extends ArrayAdapter<String>{
                     + "\nCloro: " + odourRecord.get("cl").toString()
                     + "\nDescripción del olor: " + odourRecord.get("odourtype").toString()
                     + "\nIntensidad del olor: " + odourRecord.get("odourintensity").toString()
-                    + "\nDescripción del sabor: " + odourRecord.get("odourtype").toString()
+                    + "\nDescripción del sabor: " + odourRecord.get("tastetype").toString()
                     + "\nIntensidad del sabor: " + odourRecord.get("tasteintensity").toString()
-                    + "\nFecha: " + odourRecord.get("report_date").toString()
-                    + "\nNúmero de comentarios: " + odourRecord.get("odourintensity").toString();
+               //     + "\nAlgún cambio reciente: " + odourRecord.get("anychange").toString()
+                    + "\nFecha: " + odourRecord.get("report_date").toString();
+                //    + "\nNúmero de comentarios: " + odourRecord.get("number_comments").toString();
 
             txtTitle.setText(odourRecordString);
 

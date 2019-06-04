@@ -234,8 +234,9 @@ public class MainFragment extends Fragment implements LocationListener {
                                       + "\nFecha: " + record.get("report_date").toString()
                 + "\npH: " + record.get("ph").toString()
                 + "\nCloro: " + record.get("cl").toString()
-                + "\nIntensidad del sabor: " + record.get("tasteintensity").toString()
-                + "\nNúmero de comentarios: " + record.get("odourintensity").toString();
+                                      + "\nTipo de sabor: " + record.get("tastetype").toString()
+                + "\nIntensidad del sabor: " + record.get("tasteintensity").toString();
+
 
         //System.out.println(recordString);
 

@@ -173,9 +173,9 @@ public class DisplayReportsActivity extends AppCompatActivity {
         }
 
         Integer[] imageId = {
-            R.drawable.marker_bad,
-            R.drawable.marker_good,
-            R.drawable.marker_med
+            R.drawable.aqua135,
+            R.drawable.aqua135,
+            R.drawable.aqua135
         };
 
         CustomList adapter = new  CustomList(DisplayReportsActivity.this, aux, sort, imageId);

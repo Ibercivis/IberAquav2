@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">IberAqua v2</string>
+    <string name="app_name">IberAqua</string>
     <string name="main">Reportes</string>
     <string name="project">El Proyecto</string>
     <string name="methodology">Metodología</string>

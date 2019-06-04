@@ -102,15 +102,16 @@ public class DisplayReportActivity extends AppCompatActivity {
                         // Set the text with the report within the text view
                         try {
                                 /* Create info to display in the pop up */
-                            String odourRecordString = "User: " + responseJSON.get("username").toString()
+                            String odourRecordString = "User, date: "+responseJSON.get("username").toString()+" on "+responseJSON.get("report_date").toString()
                                     + "\npH: " + responseJSON.get("ph").toString()
                                     + "\nCloro: " + responseJSON.get("cl").toString()
                                     + "\nDescripción del olor: " + responseJSON.get("odourtype").toString()
                                     + "\nIntensidad del olor: " + responseJSON.get("odourintensity").toString()
-                                    + "\nDescripción del sabor: " + responseJSON.get("odourtype").toString()
+                                   + "\nDescripción del sabor: " + responseJSON.get("tastetype").toString()
                                     + "\nIntensidad del sabor: " + responseJSON.get("tasteintensity").toString()
-                                    + "\nFecha: " + responseJSON.get("report_date").toString()
-                                    + "\nNúmero de comentarios: " + responseJSON.get("odourintensity").toString();
+                                   // + "\nAlgún cambio reciente: " + responseJSON.get("anychange").toString()
+                                    + "\nFecha: " + responseJSON.get("report_date").toString();
+                                   // + "\nNúmero de comentarios: " + responseJSON.get("number_comments").toString();
 
                             report_content_textView.setText(odourRecordString);
 

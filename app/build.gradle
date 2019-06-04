@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
 
     defaultConfig {
-        applicationId "ibercivis.com.odourcollectapp"
+        applicationId "ibercivis.com.iberaquav2"
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 7

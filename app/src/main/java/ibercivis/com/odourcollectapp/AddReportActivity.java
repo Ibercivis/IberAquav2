@@ -284,6 +284,7 @@ public class AddReportActivity extends AppCompatActivity {
                     addreport_params.put("odourintensity", String.valueOf(sb_intensity_value));
                     addreport_params.put("tasteintensity", String.valueOf(sb_annoyance_value));
                     addreport_params.put("odourtype", odour_edit_text.getText().toString());
+                    addreport_params.put("tastetype", taste_edit_text.getText().toString());
                     addreport_params.put("ph", ph_edit_text.getText().toString());
                     addreport_params.put("cl", cl_edit_text.getText().toString());
                     addreport_params.put("anychange", change_edit_text.getText().toString());
